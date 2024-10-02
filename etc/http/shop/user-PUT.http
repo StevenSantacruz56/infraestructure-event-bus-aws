@@ -1,0 +1,8 @@
+PUT http://localhost:3000/api/shop/users/{{$random.uuid}}
+Content-Type: application/json
+
+{
+  "name": "Gato Chimuelo 5",
+  "email": "gatoloco@gmail.com",
+  "profilePicture": "https://"
+}
